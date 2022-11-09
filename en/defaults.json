@@ -113,6 +113,14 @@
 		{
 			"trigger": "Start your server at www.minefort.com",
 			"domain": "minefort.com"
+		},
+		{
+			"trigger": "This server is currently starting.",
+			"domain": "aternos.me"
+		},
+		{
+			"trigger": "This server is OFFLINE!",
+			"domain" : "falixserver.net"
 		}
 	]
 }
