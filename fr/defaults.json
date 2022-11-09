@@ -1,0 +1,118 @@
+{
+	"embeds": {
+		"default": 0,
+		"templates": [{
+				"alias": "Default Template",
+				"default": true,
+				"thumbnailEnable": true,
+				"online": {
+					"header": {
+						"text": "Statut de %ip%",
+						"display": true
+					},
+					"footer": {
+						"text": "Minecraft Serveur Status",
+						"display": true
+					},
+					"body": {
+						"text": ":green_circle: Le serveur est en ligne \n \n **Type : ** %type% \n **MOTD du serveur : ** %motd% \n **Version du jeu : **%version% \n **Joueurs maximum:** %max% \n **Il y a ** %now% joueurs connectés \n **Latence du serveur:** %ping% ms \n **%open%** joueurs peuvent encore se connecter",
+						"display": true
+					},
+					"playersList": {
+						"header": "Joueurs:",
+						"display": true
+					},
+					"timestampEnable": true,
+					"embedColor": "33CC66"
+				},
+				"offline": {
+					"header": {
+						"display": true,
+						"text": "Impossible de récupérer le statut."
+					},
+					"footer": {
+						"display": true,
+						"text": "Minecraft Serveur Status"
+					},
+					"timestampEnable": true,
+					"body": {
+						"display": true,
+						"text": ":red_circle: Le serveurs est eteint \n Error: %error%"
+					},
+					"embedColor": "E74C3C"
+				}
+			},
+			{
+				"alias": "Default Template (Live)",
+				"default": false,
+				"thumbnailEnable": true,
+				"online": {
+					"header": {
+						"text": "Statut de %ip%",
+						"display": true
+					},
+					"footer": {
+						"text": "Dernière mise à jour",
+						"display": true
+					},
+					"body": {
+						"text": ":green_circle: Le serveur est en ligne \n \n **Type:** %type% \n **MOTD:** %motd% \n **Version du jeu :** %version% \n **Joueurs maximum:** %max% \n Il y a **%now%** joueurs connectés",
+						"display": true
+					},
+					"playersList": {
+						"header": "Joueurs : ",
+						"display": true
+					},
+					"timestampEnable": true,
+					"embedColor": "33CC66"
+				},
+				"offline": {
+					"header": {
+						"display": true,
+						"text": "Impossible de récupérer le statut."
+					},
+					"footer": {
+						"display": true,
+						"text": "Dernière mise à jour"
+					},
+					"timestampEnable": true,
+					"body": {
+						"display": true,
+						"text": ":red_circle: Le serveurs est éteint \n Erreur: %error%"
+					},
+					"embedColor": "E74C3C"
+				}
+			}
+		]
+	},
+	"config": {
+		"lang": "fr",
+		"liveElementCount": 0,
+		"limits": {
+			"liveElements": 25,
+			"savedServers": 10,
+			"savedEmbedTemplates": 10
+		},
+		"ephemeral": {
+			"statusPanel": false,
+			"checkPanel": false
+		}
+	},
+	"servers": {
+		"default": 0,
+		"servers": []
+	},
+	"compat": [{
+			"trigger": "This server is offline.",
+			"domain": "aternos.me"
+		},
+		{
+			"trigger": "Server not found.",
+			"domain": "aternos.me"
+		},
+		{
+			"trigger": "Start your server at www.minefort.com",
+			"domain": "minefort.com"
+		}
+	]
+}

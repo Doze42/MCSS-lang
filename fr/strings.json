@@ -1,0 +1,70 @@
+{
+"cmdHandler": {
+	"interactionFailed": "Une erreur est surveue et l'exécution de la commande à échoué. Veuillez réessayer.",
+	"databaseAddFailed": "Une erreur est survenue lors du chargement de la configuration par défaut. Veuillez réessayer."
+},
+"servers": {
+	"listHeading": "Serveurs sauvegardés pour ",
+	"serverRemoved": "Ce serveur a été supprimé de la base de données avec succès : ",
+	"serverAdded": "Serveur ajouté à la base de données avec succès.",
+	"maxServers": "Seulement 5 serveurs peuvent être sauvegardés par serveur. Veuillez en supprimer un avant de continuer.",
+	"aliasNotFound": "Serveur sauvegardé sous cet alias introuvable.",
+	"noSaved": "Aucun serveur sauvegardé n'a été configuré pour ce serveur.",
+	"aliasLength": "Les alias des serveurs ne doivent pas dépasser les 50 caractères.",
+	"listDefault": " **(Par défaut)**",
+	"aliasTaken": "Un serveur sauvegardé sous cet alias existe déjà pour ce serveur.",
+	"ipLength": "Le nom du domaine / l'addresse IP du serveur doit contenir entre 5 et 153 caractères. Veuillez vérifier votre commande et réessayer.",
+	"badPort": "L'argument **port** ne doit contenir qu'un entier entre 1 et 65535. Veuillez vérifier cotre commande et réessayer."
+},
+"invite": {
+	"embedBody": "Vous voulez ajouterMinecraft Server Status à votre serveur ? \n [Appuyez ici pour inviter le bot](https://discord.com/api/oauth2/authorize?client_id=652726107535310859&permissions=52304&scope=bot) \n \n Interessé par le programme bêta ? \n [Appuyez ici pour inviter la version bêta du bot](https://123computer.net/mcss/beta)"
+},
+"help": {
+	"embedTitle": "Cliquez ici pour lire la documentation !",
+	"embedBody": "Vous avez toujours besoin d'aide ? \n [Cliquez ici pour rejoindre le serveur de support !](https://discord.gg/szr7VgVxzQ) \n \n [Jetez un œuil à notre tutoriel vidéo !](https://123computer.net/mcss/tutorial)",
+	"docsLink": "https://123computer.net/mcss/docs/en"
+},
+"status": {
+	"badPort": "L'argument **port** doit être compris entre 1 et 65535. Veuillez vérifier cotre commande et réessayer.",
+	"ipLength": "Le nom du domaine / l'addresse IP du serveur doit contenir entre 5 et 153 caractères. Veuillez vérifier votre commande et réessayer.",
+	"noServer": "Pas de serveur spécifié. Veuille utiliser l'option **serveur** pour sélectionner un serveur sauvegardé par son aliass alias ou utiliser les options **addresse** er **port** pour spécifier un autre serveur.",
+	"aliasNotFound": "Impossible de localiser une serveur sauvegardé sous cet alias.",
+	"compatOffline": "Mode Compatibilité déclanché"
+},
+"automsg": {
+	"noServer": "Pas de serveur spécifié. Veuille utiliser l'option **serveur** pour sélectionner un serveur sauvegardé par son aliass alias ou utiliser les options **addresse** er **port** pour spécifier un autre serveur.",
+	"aliasNotFound": "Incapable de trouver un serveur sous cet alias.",
+	"embedNotFound": "Impossible de localiser un modèle d'embed sous cet alias.",
+	"success": "Le Suivi de statut en direct a été généré avec succès.",
+	"defaultTemplateLive": "Modèle par défaut (Live)",
+	"channelType": "La commande **automsg** ne peut être utilisée que dans les salons textes normaux de serveurs.",
+	"maxElements": "Le nombre maximal d'éléments de Suivi en direct de ce serveur a été atteint. Veuillez en supprimer un et recommencer ou demander des limites plus élevées dans le serveur de support.",
+	"disabled": {
+		"deadPanel": "Le serveur Minecraft a été impossible à atteindre pendant plus de deux semaines et le Suivi de statut en direct a été désactivé.",
+		"channelType": "Le type de salon a été changé et le Suivi en direct a été désactivé. Cette fonctionnalité n'est compatible qu'avec les salons texte."
+	}
+},
+"autocnl": {
+	"editReason": "Statut mis à jour"
+},
+"embeds": {
+	"footerText": "Généré par Minecraft Server Status Bot"
+},
+"reply": {
+		"error": "Erreur",
+		"notif": "Information"
+},
+"permissions":{
+	"blacklisted": "Vous êtes banni su service Minecraft Server Status. Raison : ",
+	"restricted": "Vous n'avez pas la permission de faire cette commande.",
+	"noDM": "Cette commande ne peut pas être utilisé en Message Privé.",
+	"botScope": "Cette fonctionnalité requière la présence du bot sur le serveur. Veuillez réinviter l'application avec le scope bot activé.",
+	"channelPerms": "Impossible de traiter votre requête can le bot n'a pas les permissions **Envoyer des message**, **Intégrer des liens** ou **Joindre des fichiers**. Veuillez vérifier que le bot a ces permissions ou contacter le personnel du serveur.",
+	"manageChannel": "Impossible de traiter votre requête car le bot n'a pas la permission **Gérer les salons**. Veuillez vérifier que le bot a cette permission ou contacter le personnel du serveur."
+},
+"admin": {
+	"respawningAll": "Respawning all shards.",
+	"respawnOne": "Respawning shard "
+}
+
+}
