@@ -17,7 +17,7 @@
 	"badPort": "L'argument **port** ne doit contenir qu'un entier entre 1 et 65535. Veuillez vérifier cotre commande et réessayer."
 },
 "invite": {
-	"embedBody": "Vous voulez ajouterMinecraft Server Status à votre serveur ? \n [Appuyez ici pour inviter le bot](https://discord.com/api/oauth2/authorize?client_id=652726107535310859&permissions=52304&scope=bot) \n \n Interessé par le programme bêta ? \n [Appuyez ici pour inviter la version bêta du bot](https://123computer.net/mcss/beta)"
+	"embedBody": "Vous voulez ajouter Minecraft Server Status à votre serveur ? \n [Appuyez ici pour inviter le bot](https://discord.com/api/oauth2/authorize?client_id=652726107535310859&permissions=52304&scope=bot) \n \n Interessé par le programme bêta ? \n [Appuyez ici pour inviter la version bêta du bot](https://123computer.net/mcss/beta)"
 },
 "help": {
 	"embedTitle": "Cliquez ici pour lire la documentation !",

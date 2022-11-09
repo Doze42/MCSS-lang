@@ -19,7 +19,7 @@
 						"display": true
 					},
 					"playersList": {
-						"header": "Joueurs:",
+						"header": "Joueurs :",
 						"display": true
 					},
 					"timestampEnable": true,
@@ -37,7 +37,7 @@
 					"timestampEnable": true,
 					"body": {
 						"display": true,
-						"text": ":red_circle: Le serveurs est eteint \n Error: %error%"
+						"text": ":red_circle: Le serveurs est éteint \n Error: %error%"
 					},
 					"embedColor": "E74C3C"
 				}
@@ -60,7 +60,7 @@
 						"display": true
 					},
 					"playersList": {
-						"header": "Joueurs : ",
+						"header": "Joueurs :",
 						"display": true
 					},
 					"timestampEnable": true,
@@ -78,7 +78,7 @@
 					"timestampEnable": true,
 					"body": {
 						"display": true,
-						"text": ":red_circle: Le serveurs est éteint \n Erreur: %error%"
+						"text": ":red_circle: Le serveur est éteint \n Erreur: %error%"
 					},
 					"embedColor": "E74C3C"
 				}
