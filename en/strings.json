@@ -14,7 +14,21 @@
 	"listDefault": " **(Default)**",
 	"aliasTaken": "A saved server with that alias already exists in this guild.",
 	"ipLength": "Your IP Address/Domain name must be between 5 and 253 characters. Please check your command and try again.",
-	"badPort": "Port argument must contian only numbers and be between 1 and 65535. Please check your command and try again."
+	"badPort": "Port argument must be between 1 and 65535. Please check your command and try again."
+},
+"embedsCommand": {
+	"aliasLength": "Embed alias length must be less than 50 characters.",
+	"maxTemplates": "Only 10 embed templates are allowed per guild. Please delete one before continuing.",
+	"aliasNotFound": "Unable to locate a saved server with that alias.",
+	"aliasTaken": "An embed template with that alias already exists in this guild.",
+	"listDefault": " **(Default)**",
+	"listHeading": "Embed templates for ",
+	"templateRemoved": "Successfully removed the following template from the database: ",
+	"templateAdded": "Successfully added template to the database.",
+	"noBlank": "You must specify a header, footer or body text for online and offline embeds."
+},
+"lang": {
+	"changeSuccess": "Language changed successfully"
 },
 "invite": {
 	"embedBody": "Want to add Minecraft Server Status to your server? \n [Click here to invite the bot](https://discord.com/api/oauth2/authorize?client_id=652726107535310859&permissions=52304&scope=bot) \n \n Interested in the beta program? \n [Click here to invite the Beta bot](https://123computer.net/mcss/beta)"
