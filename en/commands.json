@@ -1,0 +1,245 @@
+{
+    "status":{
+        "name": "status",
+        "description": "Checks the status of a Minecraft server",
+        "option_address": {
+            "name": "address",
+            "description": "The IP address of the server to check"
+        },
+        "option_server": {
+            "name": "server",
+            "description": "Saved server to use"
+        },
+        "option_port": {
+            "name": "port",
+            "description": "The port number of the server"
+        }
+    },
+    "automsg":{
+        "name:": "automsg",
+        "description": "Creates a Message Edit Live Status panel",
+        "option_address": {
+            "name": "address",
+            "description": "The IP address of the server to check"
+        },
+        "option_server": {
+            "name": "server",
+            "description": "Saved server to use"
+        },
+        "option_port": {
+            "name": "port",
+            "description": "The port number of the server"
+        },
+        "option_embed": {
+            "name": "embeds",
+            "description": "Saved embed template to use"
+        }
+    },
+    "servers": {
+        "name": "servers",
+        "description": "Modifies the saved servers for this guild",
+        "subcommand_add":{
+            "name": "add",
+            "description": "Adds a saved server",
+            "option_address": {
+                "name": "address",
+                "description": "The IP address of the server to check"
+            },
+            "option_port": {
+                "name": "port",
+                "description": "The port number of the server"
+            },
+            "option_alias": {
+                "name": "alias",
+                "description": "Set an alias for this server"                
+            },
+            "option_default": {
+                "name": "default",
+                "description": "Sets this server as the default"
+            }
+        },
+        "subcommand_remove": {
+            "name": "remove",
+            "description": "Removes a saved server",
+            "option_alias": {
+                "name": "alias",
+                "description": "The alias of the server to remove"
+            }
+        },
+        "subcommand_list": {
+            "name": "list",
+            "description": "Lists the saved servers for this guild"
+        }
+    },
+    "embeds": {
+        "name": "embeds",
+        "description": "Modifies the saved embeds for this guild",
+        "subcommand_add":{
+            "name": "add",
+            "description": "Adds an embed template",
+            "option_online-body":{
+                "name": "online-body",
+                "description": "Sets the online embed body text"
+            },
+            "option_offline-body":{
+                "name": "offline-body",
+                "description": "Sets the offline embed body text"
+            },
+            "option_alias":{
+                "name": "alias",
+                "description": "Sets an alias for this template"
+            },
+            "option_online-header":{
+                "name": "online-header",
+                "description": "Sets the online embed header text"
+            },
+            "option_online-footer":{
+                "name": "online-footer",
+                "description": "Sets the online embed footer text"
+            },
+            "option_online-color":{
+                "name": "online-color",
+                "description": "Sets the online embed color",
+                "choices":{
+                    "green": "Green",
+                    "red": "Red",
+                    "blue": "Blue",
+                    "yellow": "Yellow",
+                    "pink": "Pink",
+                    "purple": "Purple",
+                    "orange": "Orange"
+                }
+            },
+            "option_online-color-hex":{
+                "name": "online-color-hex",
+                "description": "Allows a custom online embed color"
+            },
+            "option_online-display-timestamp":{
+                "name": "online-display-timestamp",
+                "description": "Enables/Disables the online embed timestamp"
+            },
+            "option_display-thumbnail":{
+                "name": "display-thumbnail",
+                "description": "Enables/Disables the embed thumbnail"
+            },
+            "option_online-display-list":{
+                "name": "online-display-list",
+                "description": "Enables/Disables the online embed player list"
+            },
+            "option_online-list-subheading":{
+                "name": "online-list-subheading",
+                "description": "Sets the heading for the player list field"
+            },
+            "option_offline-header":{
+                "name": "offline-header",
+                "description": "Sets the offline embed header text"
+            },
+            "option_offline-footer": {
+                "name": "offline-footer",
+                "description": "Sets the offline embed footer text"
+            },
+            "option_offline-color":{
+                "name": "offline-color",
+                "description": "Sets the offline embed color",
+                "choices":{
+                    "green": "Green",
+                    "red": "Red",
+                    "blue": "Blue",
+                    "yellow": "Yellow",
+                    "pink": "Pink",
+                    "purple": "Purple",
+                    "orange": "Orange"
+                }
+            },
+            "option_offline-color-hex":{
+                "name": "offline-color-hex",
+                "description": "Allows a custom offline embed color"
+            },
+            "option_offline-display-timestamp":{
+                "name":"offline-display-timestamp",
+                "description": "Enables/Disables the offline embed timestamp" 
+            },
+            "option_default":{
+                "name": "default",
+                "description": "Sets this embed template as the default"
+            }
+        },
+        "subcommand_remove":{
+            "name": "remove",
+            "description": "Removes an embed template",
+            "option_alias":{
+                "name":"alias",
+                "description": "The alias of the embed template to remove"
+            }
+        },
+        "subcommand_list":{
+            "name": "list",
+            "description": "Lists the embed templates for this guild"
+        },
+        "subcommand_preview":{
+            "name": "preview",
+            "description": "Previews a saved embed template",
+            "option_alias": "Alias of the embed template to preview"
+        }
+    },
+    "botstats":{
+        "name": "botstats",
+        "description": "Provides statistics about the bot",
+        "option_shard":{
+            "name": "shard",
+            "description": "ID of shard to display statistics about"
+        }
+    },
+    "compat":{
+        "name": "compat",
+        "description": "Modifies compatibility mode settings for this guild",
+        "subcommand_add":{
+            "name":"add",
+            "description":"Adds a compatibility mode trigger for this guild",
+            "option_hostname":{
+                "name": "hostname",
+                "description": "Hostname or IP address this trigger applies to"
+            },
+            "option_trigger":{
+                "name": "trigger",
+                "description": "String of text to trigger compatibility mode"
+            }
+        },
+        "subcommand_remove":{
+            "name": "remove",
+            "description": "Removes a compatibility mode trigger",
+            "option_index":{
+                "name": "index",
+                "description": "Index of the compatibility mode trigger to remove"
+            }
+        },
+        "subcommand_list": {
+            "name": "list",
+            "description": "Lists the compatibility mode triggers for this guild"
+        }
+    },
+    "invite":{
+        "name":"invite",
+        "description": "Provides links to invite the bot"
+    },
+    "help":{
+        "name": "help",
+        "description": "Provides links to help resources"
+    },
+    "settings":{
+        "name": "settings",
+        "description": "Edits bot settings for this guild",
+        "subcommand_lang":{
+            "name": "lang",
+            "description": "Sets the bot language in this guild (does not affect slash commands)",
+            "option_language": {
+                "name": "language",
+                "description": "Selects the language to be used",
+                "options":{
+                    "english": "English",
+                    "french": "Français"
+                }
+            }
+        }
+    }
+}
