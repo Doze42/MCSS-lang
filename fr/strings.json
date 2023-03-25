@@ -69,7 +69,7 @@
 	"embedTitle": "Cliquez ici pour lire la documentation !",
 	"embedBody": "Vous avez toujours besoin d'aide ? \n [Cliquez ici pour rejoindre le serveur de support !](https://discord.gg/szr7VgVxzQ) \n \n [Jetez un œuil à notre tutoriel vidéo !](https://123computer.net/mcss/tutorial)",
 	"docsLink": "https://123computer.net/mcss/docs/en"
-}
+	}
 },
 "status": {
 	"badPort": "L'argument **port** doit être compris entre 1 et 65535. Veuillez vérifier cotre commande et réessayer.",
@@ -92,9 +92,7 @@
 		"channelType": "Le type de salon a été changé et le Suivi en direct a été désactivé. Cette fonctionnalité n'est compatible qu'avec les salons texte."
 	}
 },
-"channelType": "Le type de ce salon a été changé et le statut en direct a été désactivé. Cette fonctionnalité n'est compatible qu'avec les salons textuels."
-	}
-},
+"channelType": "Le type de ce salon a été changé et le statut en direct a été désactivé. Cette fonctionnalité n'est compatible qu'avec les salons textuels.",
 "autocnl": {
 	"editReason": "Statut mis à jour"
 },
@@ -151,6 +149,4 @@
 		"notifier": "**Notifier Live Status: **",
 		"concurrentPing": "**Concurrent Server Query: **"
 	}
-}
-
 }
