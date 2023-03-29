@@ -33,6 +33,10 @@
         "option_embed": {
             "name": "intégration",
             "description": "Le modèle d'intégration enregistré à utiliser"
+        },
+        "option_thumbnail": {
+            "name": "vignette",
+            "description": "Vignette/favicon personnalisée (maximum 5 Mo)"
         }
     },
     "servers": {
@@ -137,7 +141,7 @@
             "option_offline-footer":{
                 "name": "en-ligne-pied-de-page",
                 "description": "Définie le pied to page pour les serveurs hors ligne"
-            }
+            },
             "option_offline-color":{
                 "name": "hors-ligne-couleur",
                 "description": "Définie la couleur de l'intégration pour les serveurs hors ligne",
@@ -179,7 +183,10 @@
         "subcommand_preview":{
             "name": "prévisialiser",
             "description": "Prévisualise un modèle d'intégration sauvegardé",
-            "option_alias": "L'alias du modèle d'intégration à prévisualiser"
+            "option_alias": {
+                "name": "alias",
+                "description": "L'alias du modèle d'intégration à prévisualiser"
+            }                        
         }
     },
     "botstats":{

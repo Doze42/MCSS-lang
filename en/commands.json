@@ -33,6 +33,10 @@
         "option_embed": {
             "name": "embeds",
             "description": "Saved embed template to use"
+        },
+        "option_thumbnail": {
+            "name": "thumbnail",
+            "description": "Custom thumbnail/favicon (Maximum 5MB)"
         }
     },
     "servers": {
@@ -179,7 +183,10 @@
         "subcommand_preview":{
             "name": "preview",
             "description": "Previews a saved embed template",
-            "option_alias": "Alias of the embed template to preview"
+            "option_alias": {
+                "name": "alias",
+                "description": "Alias of the embed template to preview"
+            }
         }
     },
     "botstats":{
