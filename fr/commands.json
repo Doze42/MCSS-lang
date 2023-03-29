@@ -1,0 +1,245 @@
+{
+    "status":{
+        "name": "statut",
+        "description": "Vérifie le statu d'un serveur Minecraft",
+        "option_address": {
+            "name": "addresse",
+            "description": "L'adresse IP du serveur à vérifier"
+        },
+        "option_server": {
+            "name": "serveur",
+            "description": "Serveur sauvegardé à utiliser"
+        },
+        "option_port": {
+            "name": "port",
+            "description": "Le numéro de port du serveur"
+        }
+    },
+    "automsg":{
+        "name:": "automsg",
+        "description": "Crée un panneau de statut du serveur en direct",
+        "option_address": {
+            "name": "addresse",
+            "description": "L'adresse IP du serveur à vérifier"
+        },
+        "option_server": {
+            "name": "serveur",
+            "description": "Serveur sauvegardé à utiliser"
+        },
+        "option_port": {
+            "name": "port",
+            "description": "Le numéro de port du serveur"
+        },
+        "option_embed": {
+            "name": "intégration",
+            "description": "Le modèle d'intégration enregistré à utiliser"
+        }
+    },
+    "servers": {
+        "name": "serveurs",
+        "description": "Modifie les serveurs sauvegardés de cette guilde",
+        "subcommand_add":{
+            "name": "ajouter",
+            "description": "Ajoute en serveur sauvegardé",
+            "option_address": {
+                "name": "address",
+                "description": "L'adresse IP du serveur à vérifier"
+            },
+            "option_port": {
+                "name": "port",
+                "description": "Le numéro de port du serveur"
+            },
+            "option_alias": {
+                "name": "alias",
+                "description": "Définie un alias pour ce serveur"                
+            },
+            "option_default": {
+                "name": "defaut",
+                "description": "Définie ce serveur comme le serveur par défaut"
+            }
+        },
+        "subcommand_remove": {
+            "name": "retirer",
+            "description": "Retire un serveur sauvegardé",
+            "option_alias": {
+                "name": "alias",
+                "description": "L'alias du serveur à retirer"
+            }
+        },
+        "subcommand_list": {
+            "name": "lister",
+            "description": "Liste les serveurs sauvegardés de cette guilde"
+        }
+    },
+    "embeds": {
+        "name": "intégrations",
+        "description": "Modifie les intégrations sauvegardées de cette guilde",
+        "subcommand_add":{
+            "name": "ajouter",
+            "description": "Ajoute en modèle d'intégration",
+            "option_online-body":{
+                "name": "en-ligne-corps",
+                "description": "Définie le corps de texte pour les serveurs en ligne"
+            },
+            "option_offline-body":{
+                "name": "hors-ligne-corps",
+                "description": "Définie le corps de texte pour les serveurs hors ligne"
+            },
+            "option_alias":{
+                "name": "alias",
+                "description": "Définie un alias pour ce modèle"
+            },
+            "option_online-header":{
+                "name": "en-ligne-en-tête",
+                "description": "Définie l'en-tête pour les serveurs en ligne"
+            },
+            "option_online-footer":{
+                "name": "en-ligne-pied-de-page",
+                "description": "Définie le pied to page pour les serveurs en ligne"
+            },
+            "option_online-color":{
+                "name": "en-ligne-couleur",
+                "description": "Définie la couleur de l'intégration pour les serveurs en ligne",
+                "choices":{
+                    "green": "Vert",
+                    "red": "Rouge",
+                    "blue": "Bleu",
+                    "yellow": "Jaune",
+                    "pink": "Rose",
+                    "purple": "Violet",
+                    "orange": "Orange"
+                }
+            },
+            "option_online-color-hex":{
+                "name": "en-ligne-couleur-hex",
+                "description": "Permet une couleur personnalisée de l'intégration pour les serveurs en ligne"
+            },
+            "option_online-display-timestamp":{
+                "name": "en-ligne-afficher-horodatage",
+                "description": "Active/Désactive l'horodatage de l'intégration pour les serveurs en ligne"
+            },
+            "option_display-thumbnail":{
+                "name": "afficher-vignette",
+                "description": "Active/Désactive la vignette de l'intégration"
+            },
+            "option_online-display-list":{
+                "name": "en-ligne-afficher-liste",
+                "description": "Active/Désactive la liste de joueurs pour les serveurs en ligne pour les serveurs en ligne"
+            },
+            "option_online-list-subheading":{
+                "name": "en-ligne-liste-sous-titre",
+                "description": "Définie le titre de la liste de joueurs"
+            },
+            "option_offline-header":{
+                "name": "hors-ligne-en-tête",
+                "description": "Définie l'en-tête pour les serveurs hors ligne"
+            },
+            "option_offline-footer":{
+                "name": "en-ligne-pied-de-page",
+                "description": "Définie le pied to page pour les serveurs hors ligne"
+            }
+            "option_offline-color":{
+                "name": "hors-ligne-couleur",
+                "description": "Définie la couleur de l'intégration pour les serveurs hors ligne",
+                "choices":{
+                    "green": "Vert",
+                    "red": "Rouge",
+                    "blue": "Bleu",
+                    "yellow": "Jaune",
+                    "pink": "Rose",
+                    "purple": "Violet",
+                    "orange": "Orange"
+                }
+            },
+            "option_offline-color-hex":{
+                "name": "hors-ligne-couleur-hex",
+                "description": "Permet une couleur personnalisée de l'intégration pour les serveurs hors ligne"
+            },
+            "option_offline-display-timestamp":{
+                "name": "hors-ligne-afficher-horodatage",
+                "description": "Active/Désactive l'horodatage de l'intégration pour les serveurs hors ligne"
+            },
+            "option_default":{
+                "name": "defaut",
+                "description": "Définie ce modèle d'intégration comme modèle par défaut"
+            }
+        },
+        "subcommand_remove":{
+            "name": "retirer",
+            "description": "Retire un modèle d'intégration",
+            "option_alias":{
+                "name":"alias",
+                "description": "L'alias du modèle d'intégration à retirer"
+            }
+        },
+        "subcommand_list":{
+            "name": "lister",
+            "description": "Liste les modèles d'intégrations pour cette guilde"
+        },
+        "subcommand_preview":{
+            "name": "prévisialiser",
+            "description": "Prévisualise un modèle d'intégration sauvegardé",
+            "option_alias": "L'alias du modèle d'intégration à prévisualiser"
+        }
+    },
+    "botstats":{
+        "name": "statsbot",
+        "description": "Fournit des statistiques sur le bot",
+        "option_shard":{
+            "name": "éclat",
+            "description": "L'ID de l'éclat pour lequel afficher des statistiques"
+        }
+    },
+    "compat":{
+        "name": "compat",
+        "description": "Modifie les paramètres de mode Compatibilité pour cette guilde",
+        "subcommand_add":{
+            "name":"ajouter",
+            "description":"Ajoute une amorce pour le mode Compatiblilité de cette guile",
+            "option_hostname":{
+                "name": "nom-hôte",
+                "description": "Nom de l'hôte ou adresse IP à laquelle s'applique cette amorce"
+            },
+            "option_trigger":{
+                "name": "amorce",
+                "description": "Bout de texte qui déclanche le mode Compatilité"
+            }
+        },
+        "subcommand_remove":{
+            "name": "retirer",
+            "description": "Retire une amorce pour le mode Compatilibité",
+            "option_index":{
+                "name": "index",
+                "description": "L'index de l'amorce du mode Compatiblité à retirer"
+            }
+        },
+        "subcommand_list": {
+            "name": "liste",
+            "description": "Lises les amorces du mode Compatilbité sur cette guilde"
+        }
+    },
+    "invite":{
+        "name":"inviter",
+        "description": "Fournit un lien pour inviter le bot"
+    },
+    "help":{
+        "name": "aide",
+        "description": "Fournit un lien vers les ressources d'aide"
+    },
+    "settings":{
+        "name": "paramètres",
+        "description": "Modifie les paramètres du bot sur cette guilde",
+        "subcommand_lang":{
+            "name": "langue",
+            "description": "Définie la launche du bot sur cette guide (n'affecte pa les commandes slash)",
+            "option_language": {
+                "name": "langue",
+                "description": "Sélectionne la langue utilisée",
+                "options":{
+                    "english": "English",
+                    "french": "Français"
+                }
+            }
+        }
+    }
+}
