@@ -16,7 +16,7 @@
         }
     },
     "automsg":{
-        "name:": "automsg",
+        "name": "automsg",
         "description": "Crée un panneau de statut du serveur en direct",
         "option_address": {
             "name": "addresse",
@@ -81,11 +81,11 @@
         "subcommand_add":{
             "name": "ajouter",
             "description": "Ajoute en modèle d'intégration",
-            "option_online-body":{
+            "option_online_body":{
                 "name": "en-ligne-corps",
                 "description": "Définie le corps de texte pour les serveurs en ligne"
             },
-            "option_offline-body":{
+            "option_offline_body":{
                 "name": "hors-ligne-corps",
                 "description": "Définie le corps de texte pour les serveurs hors ligne"
             },
@@ -93,15 +93,15 @@
                 "name": "alias",
                 "description": "Définie un alias pour ce modèle"
             },
-            "option_online-header":{
+            "option_online_header":{
                 "name": "en-ligne-en-tête",
                 "description": "Définie l'en-tête pour les serveurs en ligne"
             },
-            "option_online-footer":{
+            "option_online_footer":{
                 "name": "en-ligne-pied-de-page",
                 "description": "Définie le pied to page pour les serveurs en ligne"
             },
-            "option_online-color":{
+            "option_online_color":{
                 "name": "en-ligne-couleur",
                 "description": "Définie la couleur de l'intégration pour les serveurs en ligne",
                 "choices":{
@@ -114,35 +114,35 @@
                     "orange": "Orange"
                 }
             },
-            "option_online-color-hex":{
+            "option_online_color_hex":{
                 "name": "en-ligne-couleur-hex",
                 "description": "Permet une couleur personnalisée de l'intégration pour les serveurs en ligne"
             },
-            "option_online-display-timestamp":{
+            "option_online_display_timestamp":{
                 "name": "en-ligne-afficher-horodatage",
                 "description": "Active/Désactive l'horodatage de l'intégration pour les serveurs en ligne"
             },
-            "option_display-thumbnail":{
+            "option_display_thumbnail":{
                 "name": "afficher-vignette",
                 "description": "Active/Désactive la vignette de l'intégration"
             },
-            "option_online-display-list":{
+            "option_online_display_list":{
                 "name": "en-ligne-afficher-liste",
                 "description": "Active/Désactive la liste de joueurs pour les serveurs en ligne pour les serveurs en ligne"
             },
-            "option_online-list-subheading":{
+            "option_online_list_subheading":{
                 "name": "en-ligne-liste-sous-titre",
                 "description": "Définie le titre de la liste de joueurs"
             },
-            "option_offline-header":{
+            "option_offline_header":{
                 "name": "hors-ligne-en-tête",
                 "description": "Définie l'en-tête pour les serveurs hors ligne"
             },
-            "option_offline-footer":{
-                "name": "en-ligne-pied-de-page",
+            "option_offline_footer":{
+                "name": "hors-ligne-pied-de-page",
                 "description": "Définie le pied to page pour les serveurs hors ligne"
             },
-            "option_offline-color":{
+            "option_offline_color":{
                 "name": "hors-ligne-couleur",
                 "description": "Définie la couleur de l'intégration pour les serveurs hors ligne",
                 "choices":{
@@ -155,11 +155,11 @@
                     "orange": "Orange"
                 }
             },
-            "option_offline-color-hex":{
+            "option_offline_color_hex":{
                 "name": "hors-ligne-couleur-hex",
                 "description": "Permet une couleur personnalisée de l'intégration pour les serveurs hors ligne"
             },
-            "option_offline-display-timestamp":{
+            "option_offline_display_timestamp":{
                 "name": "hors-ligne-afficher-horodatage",
                 "description": "Active/Désactive l'horodatage de l'intégration pour les serveurs hors ligne"
             },
